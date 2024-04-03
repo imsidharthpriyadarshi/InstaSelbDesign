@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InstaSleb</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes_continue">Yes, Continue</string>
+    <string name="no_i_m_not_14">No, I\'m not 14</string>
+    <string name="big_dialog_description">By Clicking Continue, I Agree That I Am At Least 14 Years Old</string>
+</resources>

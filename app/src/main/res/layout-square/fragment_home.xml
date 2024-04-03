@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragments.HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/title_heading"
+        android:layout_width="@dimen/title_logo_width"
+        android:layout_height="@dimen/title_logo_height"
+        android:layout_margin="@dimen/title_logo_margin"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/platform_bottom"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/platform_height"
+        android:layout_marginBottom="@dimen/platform_margin_bottom"
+        android:src="@drawable/platform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/gdl_platform_end"
+        app:layout_constraintStart_toEndOf="@id/gdl_platform_start" />
+    <include
+        android:id="@+id/big_dialog_box"
+        layout="@layout/custom_big_dialog"
+        android:layout_width="@dimen/big_dialog_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/gdl_big_dialog_top"
+        app:layout_constraintEnd_toStartOf="@+id/gdl_big_dialog_end"
+        app:layout_constraintStart_toStartOf="@+id/gdl_big_dialog_start" />
+
+    <ImageView
+        android:id="@+id/model"
+        android:layout_width="@dimen/model_width"
+        android:layout_height="@dimen/model_height"
+        android:layout_marginBottom="@dimen/model_margin_bottom"
+        android:rotationY="180"
+        android:src="@drawable/terms"
+        app:layout_constraintBottom_toTopOf="@+id/platform_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/gdl_model_end"
+        app:layout_constraintStart_toEndOf="@id/gdl_platform_start" />
+
+    <include
+        android:id="@+id/small_dialog_box"
+        layout="@layout/small_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/model"
+        app:layout_constraintEnd_toStartOf="@+id/gdl_small_dialog_end"
+        app:layout_constraintStart_toStartOf="@+id/gdl_small_dialog_start" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_platform_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/gdl_platform_end" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_platform_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/gdl_platform_start" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_model_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/gdl_model_end" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_small_dialog_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/gdl_small_dialog_start" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_small_dialog_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/gdl_small_dialog_end" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_big_dialog_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/gdl_big_dialog_start" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_big_dialog_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/gdl_big_dialog_end" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdl_big_dialog_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="@dimen/gdl_big_dialog_top" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

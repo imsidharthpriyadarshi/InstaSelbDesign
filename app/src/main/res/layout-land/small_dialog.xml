@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/small_dialog_box"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/message_left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/small_dialog_box_txt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="@dimen/small_dialog_txt_size"
+        android:textColor="#D608A5"
+        android:text="Are U 14 Years or Older ?"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/small_dialog_box"
+        android:fontFamily="@font/merienda_black"
+        app:layout_constraintTop_toTopOf="@+id/small_dialog_box"
+        app:layout_constraintStart_toStartOf="@id/small_dialog_box"
+        app:layout_constraintEnd_toEndOf="@id/small_dialog_box"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

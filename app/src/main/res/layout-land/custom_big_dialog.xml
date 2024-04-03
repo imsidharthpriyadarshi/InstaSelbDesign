@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_background"
+    android:padding="@dimen/big_dialog_box_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt_description"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_dialog_txt_size"
+        android:text="By Clicking Continue, I Agree That I Am At Least 14 Years Old"
+        android:textColor="@color/white"
+        android:fontFamily="@font/merienda_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/yes_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:background="@drawable/yes_btn_background"
+        android:elevation="@dimen/btn_elevation"
+        android:fontFamily="@font/merienda_black"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingHorizontal="@dimen/btn_padding_hori"
+        android:text="@string/yes_continue"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/btn_margin"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="#009F7E7E"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintEnd_toStartOf="@+id/no_btn"
+        app:layout_constraintTop_toBottomOf="@+id/txt_description" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/no_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/no_btn_background"
+        android:elevation="@dimen/btn_elevation"
+        android:fontFamily="@font/merienda_black"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingHorizontal="@dimen/btn_padding_hori"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:text="@string/no_i_m_not_14"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:backgroundTint="#009F7E7E"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_description" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

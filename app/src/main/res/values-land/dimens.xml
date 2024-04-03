@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_logo_height">50dp</dimen>
+    <dimen name="title_logo_width">120dp</dimen>
+    <dimen name="title_logo_margin">20dp</dimen>
+    <dimen name="platform_height">120dp</dimen>
+    <dimen name="platform_margin_bottom">-60dp</dimen>
+    <dimen name="big_dialog_width">430dp</dimen>
+    <dimen name="model_width">250dp</dimen>
+    <dimen name="model_height">270dp</dimen>
+    <dimen name="model_margin_bottom">-35dp</dimen>
+    <dimen name="gdl_platform_end">20dp</dimen>
+    <dimen name="gdl_platform_start">20dp</dimen>
+    <dimen name="gdl_model_end">290dp</dimen>
+    <dimen name="gdl_small_dialog_start">90dp</dimen>
+    <dimen name="gdl_small_dialog_end">190dp</dimen>
+    <dimen name="gdl_big_dialog_start">230dp</dimen>
+    <dimen name="gdl_big_dialog_end">20dp</dimen>
+    <dimen name="gdl_big_dialog_top">280dp</dimen>
+
+    <dimen name="big_dialog_txt_size">18sp</dimen>
+    <dimen name="btn_padding_hori">5dp</dimen>
+    <dimen name="btn_elevation">20dp</dimen>
+    <dimen name="btn_margin_top">20dp</dimen>
+    <dimen name="btn_margin">20dp</dimen>
+    <dimen name="big_dialog_box_padding">30dp</dimen>
+    <dimen name="small_dialog_height">70dp</dimen>
+    <dimen name="small_dialog_txt_size">13dp</dimen>
+
+</resources>

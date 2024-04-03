@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_logo_height">90dp</dimen>
+    <dimen name="title_logo_width">160dp</dimen>
+    <dimen name="platform_height">120dp</dimen>
+    <dimen name="platform_margin_bottom">-30dp</dimen>
+    <dimen name="big_dialog_width">320dp</dimen>
+    <dimen name="model_width">390dp</dimen>
+    <dimen name="model_height">490dp</dimen>
+    <dimen name="model_margin_bottom">-45dp</dimen>
+    <dimen name="gdl_platform_end">20dp</dimen>
+    <dimen name="gdl_platform_start">20dp</dimen>
+    <dimen name="gdl_model_end">290dp</dimen>
+    <dimen name="gdl_small_dialog_start">90dp</dimen>
+    <dimen name="gdl_small_dialog_end">150dp</dimen>
+    <dimen name="gdl_big_dialog_start">170dp</dimen>
+    <dimen name="gdl_big_dialog_end">20dp</dimen>
+    <dimen name="gdl_big_dialog_top">440dp</dimen>
+    <dimen name="small_dialog_txt_size">15dp</dimen>
+    <dimen name="small_dialog_width">220dp</dimen>
+    <dimen name="small_dialog_height">90dp</dimen>
+
+    <dimen name="btn_padding_hori">10dp</dimen>
+
+
+
+</resources>

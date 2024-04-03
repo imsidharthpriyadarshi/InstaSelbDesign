@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_background"
+    android:padding="@dimen/big_dialog_box_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt_description"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_dialog_txt_size"
+        android:text="@string/big_dialog_description"
+        android:textColor="@color/white"
+        android:fontFamily="@font/merienda_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/yes_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes_continue"
+        android:textAllCaps="false"
+        android:paddingHorizontal="@dimen/btn_padding_hori"
+        android:textColor="@color/white"
+        app:backgroundTint="#009F7E7E"
+        app:backgroundTintMode="src_over"
+        android:fontFamily="@font/merienda_black"
+        android:elevation="@dimen/btn_elevation"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:background="@drawable/yes_btn_background"
+        app:layout_constraintTop_toBottomOf="@+id/txt_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/no_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_i_m_not_14"
+        android:fontFamily="@font/merienda_black"
+        android:textAllCaps="false"
+        android:elevation="@dimen/btn_elevation"
+        android:textColor="@color/colorPrimary"
+        app:backgroundTint="#009F7E7E"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:backgroundTintMode="src_over"
+        android:background="@drawable/no_btn_background"
+        app:layout_constraintTop_toBottomOf="@+id/yes_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingHorizontal="@dimen/btn_padding_hori"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
