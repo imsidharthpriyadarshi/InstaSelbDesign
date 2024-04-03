@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- there are so many dimen which is just copy from main , these can be
+     remove but for sake of ease i kept it-->
     <dimen name="title_logo_height">100dp</dimen>
     <dimen name="title_logo_width">180dp</dimen>
     <dimen name="platform_height">120dp</dimen>
@@ -20,7 +22,7 @@
     <dimen name="small_dialog_width">250dp</dimen>
     <dimen name="small_dialog_height">90dp</dimen>
     <dimen name="btn_padding_hori">20dp</dimen>
-
+    <dimen name="btn_txt_size">15dp</dimen>
 
 
 </resources>

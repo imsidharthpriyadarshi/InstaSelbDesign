@@ -27,9 +27,6 @@ ViewBinding is used to access views in activities and fragments, improving code 
 
 The app supports multiple screen sizes by using ConstraintLayout with guidelines and appropriate layout files for different qualifiers (`layout`, `layout-land`, `values`,`values-land`, `vlaues-sw600`,`vlaues-land-sw600`,`values-sw720`,`vlaues-land-sw600`, etc.).
 
-### Global Settings
-
-The app adapts to different global settings such as font size by using scalable dimensions (`sp` units) for text sizes and following Material Design guidelines for typography.
 
 ## Project Structure
 

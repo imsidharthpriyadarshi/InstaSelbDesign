@@ -8,6 +8,8 @@ import android.util.DisplayMetrics;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
+    //All activities that extend this class should remain unaffected
+    // by changes in screen zoom settings.
     @Override
     protected void attachBaseContext(Context baseContext) {
         Context newContext;
