@@ -18,8 +18,8 @@
     <dimen name="gdl_big_dialog_end">20dp</dimen>
     <dimen name="gdl_big_dialog_top">280dp</dimen>
 
-    <dimen name="big_dialog_txt_size">18sp</dimen>
-    <dimen name="btn_padding_hori">5dp</dimen>
+    <dimen name="big_dialog_txt_size">18dp</dimen>
+    <dimen name="btn_padding_hori">20dp</dimen>
     <dimen name="btn_elevation">20dp</dimen>
     <dimen name="btn_margin_top">20dp</dimen>
     <dimen name="btn_margin">20dp</dimen>

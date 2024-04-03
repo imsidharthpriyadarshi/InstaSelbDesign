@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.instasleb.R;
 import com.example.instasleb.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     ActivityMainBinding mainBinding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 //        EdgeToEdge.enable(this);
         mainBinding=ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(mainBinding.getRoot());
+
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
 //            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

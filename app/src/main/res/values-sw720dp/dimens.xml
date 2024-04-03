@@ -19,7 +19,7 @@
     <dimen name="small_dialog_txt_size">16dp</dimen>
     <dimen name="small_dialog_width">250dp</dimen>
     <dimen name="small_dialog_height">90dp</dimen>
-    <dimen name="btn_padding_hori">10dp</dimen>
+    <dimen name="btn_padding_hori">20dp</dimen>
 
 
 
